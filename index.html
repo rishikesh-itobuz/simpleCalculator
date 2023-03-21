@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4">
+              <input id="display" type="text" disabled />
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="row">
+            <td><button id="all-clear">AC</button></td>
+            <td><button class="operator">/</button></td>
+            <td><button class="operator">*</button></td>
+            <td  ><button id="clear" >c</button></td>
+          </tr>
+          <tr class="row">
+            <td><button class="number">7</button></td>
+            <td><button class="number">8</button></td>
+            <td><button class="number">9</button></td>
+            <td><button class="operator">-</button></td>
+          </tr>
+          <tr class="row">
+            <td><button class="number">4</button></td>
+            <td><button class="number">5</button></td>
+            <td><button class="number">6</button></td>
+            <td><button class="operator">+</button></td>
+          </tr>
+          <tr class="row">
+            <td><button class="number">1</button></td>
+            <td><button class="number">2</button></td>
+            <td><button class="number">3</button></td>
+            <td rowspan="2"  id="equal"  ><button >=</button></td>
+          </tr>
+          <tr class="row">
+            <td><button class="operator">%</button></td>
+            <td><button class="number">0</button></td>
+            <td><button id="decimal">.</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- <script src="main.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
